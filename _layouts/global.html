@@ -47,7 +47,7 @@
             <ul class="nav">
                 {% assign allPages = site.pages | where: 'lang', page.lang %}
                 {% for p in allPages %}
-                    <li><a href="{{p.url}}">{{p.title}}</a></li>
+                    <li><a href="..{{p.url}}">{{p.title}}</a></li>
                 {% endfor %}
               
                 {% assign multiLanPages = site.pages | where: 'name', page.name | sort: 'languagePriority' %}
@@ -56,7 +56,7 @@
                           class="caret"></b></a>
                     <ul class="dropdown-menu">
                         {% for p in multiLanPages %}
-                            <li><a href="{{p.url}}">{{p.lang}}</a></li>
+                            <li><a href="..{{p.url}}">{{p.lang}}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
