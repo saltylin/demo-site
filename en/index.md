@@ -11,3 +11,5 @@ frameworks, such as Spark and MapReduce.
 ![Tachyon logo]({{site.data.img.logo}})
 
 Visit [Tachyon Homepage]({{site.data.link.tachyon-homepage}})
+
+Switch to [Code example](code-example.html)
