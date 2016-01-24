@@ -17,7 +17,7 @@ defaults:
       languagePriority: "0"
   -
     scope:
-      path: "zh"
+      path: "cn"
     values:
       lang: "中文"
       languagePriority: "1"
