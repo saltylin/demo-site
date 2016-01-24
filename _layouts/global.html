@@ -52,7 +52,7 @@
               
                 {% assign multiLanPages = site.pages | where: 'name', page.name | sort: 'languagePriority' %}
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle active" data-toggle="dropdown">{{page.lang}}<b
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{page.lang}}<b
                           class="caret"></b></a>
                     <ul class="dropdown-menu">
                         {% for p in multiLanPages %}
